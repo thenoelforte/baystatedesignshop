@@ -13,6 +13,7 @@
     </div>
 
     <form @submit.prevent="handleSubmit" class="mb5 flex flex-wrap" netlify>
+      <input type="hidden" name="form-name" value="Invite Request" />
       <input type="email" class="flex-auto pa3 pa4-l" placeholder="Your Email" ref="email">
       <input type="submit" value="Request an Invite" class="input-reset dib b pa4 bg-black white bn lh-solid flex-auto flex-none-ns pointer">
     </form>
