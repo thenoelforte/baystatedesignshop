@@ -14,7 +14,7 @@
 
     <form @submit.prevent="handleSubmit" class="mb5 flex flex-wrap" netlify>
       <input type="hidden" name="form-name" value="Invite Request" />
-      <input type="email" class="flex-auto pa3 pa4-l" placeholder="Your Email" ref="email">
+      <input v-model="form.email" type="email" class="flex-auto pa3 pa4-l" placeholder="Your Email" ref="email">
       <input type="submit" value="Request an Invite" class="input-reset dib b pa4 bg-black white bn lh-solid flex-auto flex-none-ns pointer">
     </form>
 
@@ -43,6 +43,13 @@ export default {
   methods: {
     handleSubmit: function () {
       const vm = this
+
+      // Check for email
+      if (!vm.$data.form.email) {
+        vm.$data.message = 'Look, if you want an invite we need your email address.'
+        return
+      }
+
       const encode = data => {
         return Object.keys(data)
           .map(
@@ -50,13 +57,13 @@ export default {
           )
           .join('&')
       }
+
       fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encode({ 'form-name': 'contact', ...this.$data.form })
+        body: encode({ 'form-name': 'Invite Request', ...this.$data.form })
       })
         .then(() => {
-          console.log(this)
           vm.$data.message = 'Your request has been sent!'
           vm.$refs.email.value = ''
         })
