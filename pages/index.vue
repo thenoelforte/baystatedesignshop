@@ -12,8 +12,9 @@
       <p class="dib bg-light-yellow pa2">{{ message }}</p>
     </div>
 
-    <form @submit.prevent="handleSubmit" class="mb5 flex flex-wrap" netlify>
-      <input type="hidden" name="form-name" value="Invite Request" />
+    <form @submit.prevent="handleSubmit" class="mb5 flex flex-wrap" data-netlify="true" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="invites">
+      <input name="bot-field">
       <input v-model="form.email" type="email" class="flex-auto pa3 pa4-l" placeholder="Your Email" ref="email">
       <input type="submit" value="Request an Invite" class="input-reset dib b pa4 bg-black white bn lh-solid flex-auto flex-none-ns pointer">
     </form>
@@ -61,7 +62,7 @@ export default {
       fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: encode({ 'form-name': 'Invite Request', ...this.$data.form })
+        body: encode({ 'form-name': 'invites', ...this.$data.form })
       })
         .then(() => {
           vm.$data.message = 'Your request has been sent!'
