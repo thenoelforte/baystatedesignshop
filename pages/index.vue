@@ -12,7 +12,7 @@
       <p class="dib bg-light-yellow pa2">{{ message }}</p>
     </div>
 
-    <form @submit.prevent="handleSubmit" class="mb5 flex flex-wrap" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form @submit.prevent="handleSubmit" class="mb5 flex flex-wrap" data-netlify="true" data-netlify-honeypot="bot-field" name="invites">
       <input type="hidden" name="form-name" value="invites">
       <div class="dn">
         <input name="bot-field">
@@ -26,7 +26,12 @@
 
 <style>
   input[type="email"] {
+    transition: all 400ms;
     border: 2px solid;
+  }
+  input[type="email"]:focus {
+    border-width: 4px;
+    outline: 0;
   }
 </style>
 
