@@ -14,7 +14,9 @@
 
     <form @submit.prevent="handleSubmit" class="mb5 flex flex-wrap" data-netlify="true" data-netlify-honeypot="bot-field">
       <input type="hidden" name="form-name" value="invites">
-      <input name="bot-field">
+      <div class="dn">
+        <input name="bot-field">
+      </div>
       <input v-model="form.email" type="email" class="flex-auto pa3 pa4-l" placeholder="Your Email" ref="email">
       <input type="submit" value="Request an Invite" class="input-reset dib b pa4 bg-black white bn lh-solid flex-auto flex-none-ns pointer">
     </form>
