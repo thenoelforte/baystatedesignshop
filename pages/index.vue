@@ -17,8 +17,10 @@
       <div class="dn">
         <input name="bot-field">
       </div>
-      <input v-model="form.email" ref="email" type="email" name="email" class="flex-auto pa3 pa4-l" placeholder="Your Email">
-      <input type="submit" value="Request an Invite" class="input-reset dib b pa4 bg-black white bn lh-solid flex-auto flex-none-ns pointer">
+
+      <input v-model="form.email" ref="email" type="email" name="email" class="br0 flex-auto pa3 pa4-l" placeholder="Your Email">
+
+      <input type="submit" value="Request an Invite" class="input-reset br0 dib b pa4 bg-black white bn lh-solid flex-auto flex-none-ns pointer">
     </form>
 
   </div>
