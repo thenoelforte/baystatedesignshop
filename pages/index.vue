@@ -55,7 +55,8 @@ input[type='email']:focus {
 </style>
 
 <script>
-import Logo from '~/components/Logo';
+import Logo from '~/components/Logo.vue';
+
 export default {
   data: function() {
     return {
