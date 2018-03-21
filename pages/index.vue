@@ -55,7 +55,7 @@ input[type='email']:focus {
 </style>
 
 <script>
-import Logo from '../components/Logo'
+import Logo from '~/components/Logo';
 export default {
   data: function() {
     return {
