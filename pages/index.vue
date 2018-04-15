@@ -1,63 +1,103 @@
 <template>
-  <div class="pa3 pa5-ns flex flex-column justify-center min-vh-100">
-    <h1 class="f1 f-subheadline-ns mw6 mt0 mb3 lh-solid underline">
-      Bay State Design Shop
-    </h1>
+  <div class="flex-l justify-center min-vh-100 near-black">
 
-    <p class="f4 f3-ns measure-narrow lh-copy mb5">
-      Where Massachusetts-based designers come to talk shop. Join us on Slack.
-    </p>
+      <div class="w-100 w-50-l bg-near-black white pa5 flex items-center justify-center">
+        <div class="tc">
+          <svg class="fill-white mb5 mw6 center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 536.37 227.42">
+            <path d="M497,76.51c-16.55-9.5-23.87-14.38-23.87-22.25C473.16,46.94,477.23,44,487,44c8.68,0,19.53,8.68,26.85,21.44V2.17c-3,3-6.78,3.53-10.85,3.53-4.61,0-16.28-5.7-27.4-5.7-40.15,0-63.76,20.35-63.76,56.43,0,1,0,2,.07,3C397.44,26,365.67,0,328.82,0,312,0,289.48,6.24,282.16,6.24A27.14,27.14,0,0,1,264.25,0V117.1C258,96.46,242.88,85,227.9,76.51,211.35,67,204,62.13,204,54.26,204,46.94,208.09,44,217.86,44c8.68,0,19.53,8.68,26.86,21.44V2.17c-3,3-6.79,3.53-10.86,3.53-4.61,0-16.27-5.7-27.4-5.7-40.15,0-63.75,20.35-63.75,56.43,0,26.59,14.92,40.15,29.3,50.74,14.65,10.58,33.91,18.44,33.91,31.74,0,7.87-7.87,12.48-14.65,12.48-12,0-24.94-6.66-41.15-24.2-1.09-18.61-7.42-31.74-15.55-40.37,2.44-9.5,4.34-17.91,4.34-27.4C138.91,22.79,106.35,0,67.28,0,48,0,33.37,6.24,23.6,6.24A25.52,25.52,0,0,1,6.24,0V180.15A27.39,27.39,0,0,1,0,197.51H83.83c28.3,0,51.09-15,61.05-37.86v40a33.2,33.2,0,0,1,15.46-3.53c10,0,22.52,5.7,35.81,5.7,34.33,0,59.73-15.35,68.1-42.42v20.72A27.33,27.33,0,0,1,258,197.51h70.81c38.75,0,71.89-25.27,85.19-62.42v64.59a33.27,33.27,0,0,1,15.47-3.53c10,0,22.52,5.7,35.81,5.7,42.32,0,71.08-23.33,71.08-63.21C536.37,103.64,516.57,87.63,497,76.51ZM64.84,142.16V55.35H67c10.85,0,19.81,6,19.81,15.19,0,8.95-4.07,16-12.48,18.72v1.08C86.27,93.87,95,103.91,95,114.76,95,133.48,83.29,142.16,64.84,142.16Zm258-3.25V58.6c22.79,0,38.8,14.92,38.8,41C361.65,122.09,346.46,138.91,322.85,138.91Zm137.56,12.48c-12.56,0-26.08-7.27-43.31-26.58a110.08,110.08,0,0,0,3.15-26.33,92.26,92.26,0,0,0-1-13.59c5.68,9.52,13.87,16.37,21.9,22.28,14.66,10.58,33.92,18.44,33.92,31.74C475.06,146.78,467.19,151.39,460.41,151.39Z"/>
+            <path d="M153,217l.85.3-1.31,3.61-1.05-.38Zm2.65,0,.85.3-1.32,3.6-1-.37Z"/>
+            <path d="M164.14,217.15c2.05,0,3.22,1,3.22,2.68a2.44,2.44,0,0,1-.58,1.65,2.22,2.22,0,0,1-1,.65,2.45,2.45,0,0,1,1.15.47,2.39,2.39,0,0,1,.83,1.93,2.54,2.54,0,0,1-1.09,2.19,4.27,4.27,0,0,1-2.51.52h-2.85V217.15Zm-1.57,4.54,1.28,0a2.51,2.51,0,0,0,1.65-.39,1.78,1.78,0,0,0,.62-1.39,1.57,1.57,0,0,0-.8-1.45,3.76,3.76,0,0,0-1.71-.24h-1Zm0,4.52h1.27a3.44,3.44,0,0,0,1.9-.33,1.51,1.51,0,0,0,.73-1.42c0-1.21-.71-1.74-2.32-1.74h-1.58Z"/>
+            <path d="M173.1,224.91l-.92,2.33h-1.31l3.79-10.09h1.51l3.71,10.09h-1.42l-.83-2.33Zm2.29-6.15-1.91,5.06h3.75Z"/>
+            <path d="M186.73,227.24h-1.27v-4.45L182,217.15h1.5l2.6,4.33,2.57-4.33h1.51l-3.43,5.64Z"/>
+            <path d="M202.44,224.53a1.64,1.64,0,0,0,1.78,1.76,1.76,1.76,0,0,0,1.94-1.71c0-.88-.46-1.29-2-1.82a5,5,0,0,1-2-1,2.49,2.49,0,0,1-.79-1.91,3,3,0,0,1,6,0H206a1.82,1.82,0,0,0-.24-1,1.76,1.76,0,0,0-1.5-.71,1.62,1.62,0,0,0-1.71,1.64,1.42,1.42,0,0,0,.58,1.17,6.09,6.09,0,0,0,1.62.71,4.56,4.56,0,0,1,2,1.09,2.58,2.58,0,0,1,.68,1.78,2.9,2.9,0,0,1-3.17,2.92,2.83,2.83,0,0,1-2.69-1.36,2.42,2.42,0,0,1-.35-1.32v-.21Z"/>
+            <path d="M215.08,227.24h-1.27v-9h-2.57v-1.09h6.4v1.09h-2.56Z"/>
+            <path d="M222.52,224.91l-.92,2.33h-1.32l3.8-10.09h1.51l3.7,10.09h-1.42l-.83-2.33Zm2.28-6.15-1.9,5.06h3.75Z"/>
+            <path d="M235.78,227.24h-1.27v-9h-2.57v-1.09h6.4v1.09h-2.56Z"/>
+            <path d="M243.61,221.61h4v1.09h-4v3.45h4v1.09h-5.25V217.15h5.25v1.09h-4Z"/>
+            <path d="M260.2,217.15h2.68a4.5,4.5,0,0,1,4.87,4.89,5.23,5.23,0,0,1-1.59,4,5,5,0,0,1-3.51,1.17H260.2Zm1.27,9h.45c1.71,0,2.44-.18,3.16-.76a4,4,0,0,0,1.36-3.34c0-2.43-1.3-3.82-3.61-3.82h-1.36Z"/>
+            <path d="M273.84,221.61h4v1.09h-4v3.45h4v1.09h-5.25V217.15h5.25v1.09h-4Z"/>
+            <path d="M283.4,224.53a1.64,1.64,0,0,0,1.78,1.76,1.76,1.76,0,0,0,1.94-1.71c0-.88-.46-1.29-2.05-1.82a5.15,5.15,0,0,1-2-1,2.52,2.52,0,0,1-.78-1.91,3,3,0,0,1,6,0H287a2,2,0,0,0-.24-1,1.76,1.76,0,0,0-1.5-.71,1.61,1.61,0,0,0-1.71,1.64,1.39,1.39,0,0,0,.58,1.17,6,6,0,0,0,1.61.71,4.55,4.55,0,0,1,2,1.09,2.58,2.58,0,0,1,.68,1.78,2.9,2.9,0,0,1-3.17,2.92,2.85,2.85,0,0,1-2.7-1.36,2.5,2.5,0,0,1-.34-1.32v-.21Z"/>
+            <path d="M294.27,227.24H293V217.15h1.27Z"/>
+            <path d="M308.41,221.78c0,.21,0,.48,0,.57a4.86,4.86,0,0,1-4.84,5.07,5.23,5.23,0,0,1,0-10.45,4.74,4.74,0,0,1,3.8,1.83l-1,.77a4.15,4.15,0,0,0-.84-.8,3.4,3.4,0,0,0-2-.63,4.08,4.08,0,0,0,0,8.12,3.64,3.64,0,0,0,2.9-1.49,3.43,3.43,0,0,0,.65-1.9h-3.5v-1.09Z"/>
+            <path d="M314,227.24h-1.27V217.15h1.17l5.38,7.59v-7.59h1.27v10.09h-1.12L314,219.53Z"/>
+            <path d="M334.12,224.53a1.65,1.65,0,0,0,1.79,1.76,1.76,1.76,0,0,0,1.94-1.71c0-.88-.46-1.29-2.05-1.82a5.15,5.15,0,0,1-2-1,2.52,2.52,0,0,1-.78-1.91,3,3,0,0,1,6,0h-1.27a2,2,0,0,0-.24-1,1.76,1.76,0,0,0-1.5-.71,1.61,1.61,0,0,0-1.71,1.64,1.39,1.39,0,0,0,.58,1.17,6,6,0,0,0,1.61.71,4.55,4.55,0,0,1,2,1.09,2.58,2.58,0,0,1,.68,1.78,2.9,2.9,0,0,1-3.18,2.92,2.84,2.84,0,0,1-2.69-1.36,2.5,2.5,0,0,1-.34-1.32v-.21Z"/>
+            <path d="M345,227.24h-1.27V217.15H345v4.54h4.91v-4.54h1.27v10.09h-1.27v-4.46H345Z"/>
+            <path d="M364.23,218.71a5.13,5.13,0,0,1,1.18,3.58,5,5,0,0,1-1.71,3.92,4.9,4.9,0,0,1-3.22,1.21,5,5,0,0,1-3.9-1.89,5.18,5.18,0,0,1-1.06-3.28,5,5,0,0,1,8.71-3.54Zm-7.41,3.49c0,2.35,1.54,4.06,3.63,4.06a3.62,3.62,0,0,0,2.69-1.21,4.33,4.33,0,0,0,1-2.77,4,4,0,0,0-1.15-3.09,3.63,3.63,0,0,0-2.48-1A3.76,3.76,0,0,0,356.82,222.2Z"/>
+            <path d="M371,227.24h-1.27V217.15h2.69c2.39,0,3.71,1.09,3.71,3.09a3.13,3.13,0,0,1-1.08,2.45,3.81,3.81,0,0,1-2.49.69H371Zm1.32-5a3.21,3.21,0,0,0,1.25-.18,1.9,1.9,0,0,0,1.27-1.84,1.86,1.86,0,0,0-1.28-1.83,4.05,4.05,0,0,0-1.41-.2H371v4Z"/>
+            <path d="M380.88,220.87l-.83-.3,1.3-3.61,1.06.36Zm2.64,0-.84-.3L384,217l1.06.36Z"/>
+          </svg>
+          <h1 class="dn">
+            Bay State Design Shop
+          </h1>
 
-    <div v-if="message">
-      <p class="dib bg-light-yellow pa2">{{ message }}</p>
-    </div>
+          <div v-if="message">
+            <p class="tc f4 light-yellow">{{ message }}</p>
+          </div>
 
-    <form @submit.prevent="handleSubmit" class="mb5 flex flex-wrap" data-netlify="true" data-netlify-honeypot="bot-field" name="invites">
-      <input type="hidden" name="form-name" value="invites">
-      <div class="dn">
-        <input name="bot-field">
+          <form @submit.prevent="handleSubmit" class="tc" data-netlify="true" data-netlify-honeypot="bot-field" name="invites">
+            <input type="hidden" name="form-name" value="invites">
+
+            <div class="dn">
+              <input name="bot-field">
+            </div>
+
+            <input v-model="form.email" ref="email" type="email" name="email" class="bicyclette white bg-transparent br0 w-100 pv4 tc f5 ttu tracked-mega" placeholder="Your Email">
+
+            <input type="submit" value="Request an Invite →" class="bicyclette ttu tracked input-reset br0 dib pa4 bg-transparent white tracked-mega bn lh-solid flex-auto flex-none-ns pointer">
+          </form>
+        </div>
       </div>
 
-      <input v-model="form.email" ref="email" type="email" name="email" class="br0 flex-auto pa3 pa4-l" placeholder="Your Email">
-
-      <input type="submit" value="Request an Invite" class="input-reset br0 dib b pa4 bg-black white bn lh-solid flex-auto flex-none-ns pointer">
-    </form>
-
+      <div class="w-100 w-50-l pa5 flex items-center justify-center">
+        <div class="lh-copy mw6">
+          <p class="f4 f3-ns mt0 measure mb3">
+            <strong>Bay State Design Shop</strong> is a growing community that’s built for New England-area designers, by New England-area designers.
+          </p>
+          <p class="f5 f4-ns mv3 measure-narrow">
+            With over one-hundred members, <strong>BSDS</strong> is an inclusive gathering spot for all stripes of designer—veteran practitioners, up-and-comers, and greenhorns alike.
+          </p>
+          <p class="f5 f4-ns mt3 mb0 measure-narrow">
+            We’re a pretension-free place for designers of all disciplines to talk shop, chew the fat, hone their craft, and lend a helping hand.
+          </p>
+        </div>
+      </div>
   </div>
 </template>
 
 <style>
-  input[type="email"] {
-    transition: all 400ms;
-    border: 2px solid;
-  }
-  input[type="email"]:focus {
-    border-width: 4px;
-    outline: 0;
-  }
+input[type='email'] {
+  transition: all 400ms;
+  border: 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+input[type='email']:focus {
+  outline: 0;
+}
 </style>
 
 <script>
 export default {
-  data: function () {
+  data: function() {
     return {
       message: '',
       form: {
         email: ''
       }
-    }
+    };
   },
-  head () {
-    return { title: 'Bay State Design Shop' }
+  head() {
+    return { title: 'Bay State Design Shop' };
   },
   methods: {
-    handleSubmit: function () {
-      const vm = this
+    handleSubmit: function() {
+      const vm = this;
 
       // Check for email
       if (!vm.$data.form.email) {
-        vm.$data.message = 'Look, if you want an invite we need your email address.'
-        return
+        vm.$data.message =
+          'Look, if you want an invite we need your email address.';
+        return;
       }
 
       const encode = data => {
@@ -65,8 +105,8 @@ export default {
           .map(
             key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
           )
-          .join('&')
-      }
+          .join('&');
+      };
 
       fetch('/', {
         method: 'POST',
@@ -74,13 +114,13 @@ export default {
         body: encode({ 'form-name': 'invites', ...this.$data.form })
       })
         .then(() => {
-          vm.$data.message = 'Your request has been sent!'
-          vm.$refs.email.value = ''
+          vm.$data.message = 'Your request has been sent!';
+          vm.$refs.email.value = '';
         })
         .catch(error => {
-          vm.$data.message = error
-        })
+          vm.$data.message = error;
+        });
     }
   }
-}
+};
 </script>
