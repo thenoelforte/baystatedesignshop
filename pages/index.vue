@@ -1,9 +1,26 @@
 <template>
-  <div class="flex-l justify-center min-vh-100 near-black">
+  <div>
+    <div class="bg-orange pa4">
+      <div class="flex-ns items-center lh-solid justify-between bb bt pv3">
+        <div class="w-third-ns">
+          <h1 class="f4 ma0 ttu tracked">BSDS + Draplin</h1>
+        </div>
+        <div class="w-third-ns tc-ns">
+          <p class="f4 ma0 b">10 • 26 • 18</p>
+        </div>
+        <div class="w-third-ns tr-ns">
+          <a href="https://www.eventbrite.com/e/bsds-presents-aaron-draplin-in-boston-tickets-44519589290" class="f4 link white hover-black ttu tracked-mega">
+            Tickets
+          </a>
+        </div>
+      </div>
+    </div>
 
-      <div class="w-100 w-50-l bg-near-black white pa5 flex items-center justify-center">
+    <div class="flex-l justify-center min-vh-100 near-black">
+
+      <div class="w-100 w-50-l bg-near-black white flex flex-column items-center justify-center">
         <div class="tc">
-          <svg class="fill-white mb5 mw6 center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 536.37 227.42">
+          <svg class="fill-white mw6 center pa5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 536.37 227.42">
             <path d="M497,76.51c-16.55-9.5-23.87-14.38-23.87-22.25C473.16,46.94,477.23,44,487,44c8.68,0,19.53,8.68,26.85,21.44V2.17c-3,3-6.78,3.53-10.85,3.53-4.61,0-16.28-5.7-27.4-5.7-40.15,0-63.76,20.35-63.76,56.43,0,1,0,2,.07,3C397.44,26,365.67,0,328.82,0,312,0,289.48,6.24,282.16,6.24A27.14,27.14,0,0,1,264.25,0V117.1C258,96.46,242.88,85,227.9,76.51,211.35,67,204,62.13,204,54.26,204,46.94,208.09,44,217.86,44c8.68,0,19.53,8.68,26.86,21.44V2.17c-3,3-6.79,3.53-10.86,3.53-4.61,0-16.27-5.7-27.4-5.7-40.15,0-63.75,20.35-63.75,56.43,0,26.59,14.92,40.15,29.3,50.74,14.65,10.58,33.91,18.44,33.91,31.74,0,7.87-7.87,12.48-14.65,12.48-12,0-24.94-6.66-41.15-24.2-1.09-18.61-7.42-31.74-15.55-40.37,2.44-9.5,4.34-17.91,4.34-27.4C138.91,22.79,106.35,0,67.28,0,48,0,33.37,6.24,23.6,6.24A25.52,25.52,0,0,1,6.24,0V180.15A27.39,27.39,0,0,1,0,197.51H83.83c28.3,0,51.09-15,61.05-37.86v40a33.2,33.2,0,0,1,15.46-3.53c10,0,22.52,5.7,35.81,5.7,34.33,0,59.73-15.35,68.1-42.42v20.72A27.33,27.33,0,0,1,258,197.51h70.81c38.75,0,71.89-25.27,85.19-62.42v64.59a33.27,33.27,0,0,1,15.47-3.53c10,0,22.52,5.7,35.81,5.7,42.32,0,71.08-23.33,71.08-63.21C536.37,103.64,516.57,87.63,497,76.51ZM64.84,142.16V55.35H67c10.85,0,19.81,6,19.81,15.19,0,8.95-4.07,16-12.48,18.72v1.08C86.27,93.87,95,103.91,95,114.76,95,133.48,83.29,142.16,64.84,142.16Zm258-3.25V58.6c22.79,0,38.8,14.92,38.8,41C361.65,122.09,346.46,138.91,322.85,138.91Zm137.56,12.48c-12.56,0-26.08-7.27-43.31-26.58a110.08,110.08,0,0,0,3.15-26.33,92.26,92.26,0,0,0-1-13.59c5.68,9.52,13.87,16.37,21.9,22.28,14.66,10.58,33.92,18.44,33.92,31.74C475.06,146.78,467.19,151.39,460.41,151.39Z"/>
             <path d="M153,217l.85.3-1.31,3.61-1.05-.38Zm2.65,0,.85.3-1.32,3.6-1-.37Z"/>
             <path d="M164.14,217.15c2.05,0,3.22,1,3.22,2.68a2.44,2.44,0,0,1-.58,1.65,2.22,2.22,0,0,1-1,.65,2.45,2.45,0,0,1,1.15.47,2.39,2.39,0,0,1,.83,1.93,2.54,2.54,0,0,1-1.09,2.19,4.27,4.27,0,0,1-2.51.52h-2.85V217.15Zm-1.57,4.54,1.28,0a2.51,2.51,0,0,0,1.65-.39,1.78,1.78,0,0,0,.62-1.39,1.57,1.57,0,0,0-.8-1.45,3.76,3.76,0,0,0-1.71-.24h-1Zm0,4.52h1.27a3.44,3.44,0,0,0,1.9-.33,1.51,1.51,0,0,0,.73-1.42c0-1.21-.71-1.74-2.32-1.74h-1.58Z"/>
@@ -34,7 +51,7 @@
             <p class="tc f4 light-yellow">{{ message }}</p>
           </div>
 
-          <form @submit.prevent="handleSubmit" class="tc" data-netlify="true" data-netlify-honeypot="bot-field" name="invites">
+          <form @submit.prevent="handleSubmit" class="tc pa2 pa5-ns" data-netlify="true" data-netlify-honeypot="bot-field" name="invites">
             <input type="hidden" name="form-name" value="invites">
 
             <div class="dn">
@@ -45,6 +62,7 @@
 
             <input type="submit" value="Request an Invite →" class="bicyclette ttu tracked input-reset br0 dib pa4 bg-transparent white tracked-mega bn lh-solid flex-auto flex-none-ns pointer">
           </form>
+
         </div>
       </div>
 
@@ -61,6 +79,7 @@
           </p>
         </div>
       </div>
+    </div>
   </div>
 </template>
 
