@@ -72,7 +72,7 @@
             <strong>Bay State Design Shop</strong> is a growing community that’s built for New England-area designers, by New England-area designers.
           </p>
           <p class="f5 f4-ns mv3 measure-narrow">
-            With over one-hundred members, <strong>BSDS</strong> is an inclusive gathering spot for all stripes of designer—veteran practitioners, up-and-comers, and greenhorns alike.
+            With over two-hundred members, <strong>BSDS</strong> is an inclusive gathering spot for all stripes of designer—veteran practitioners, up-and-comers, and greenhorns alike.
           </p>
           <p class="f5 f4-ns mt3 mb0 measure-narrow">
             We’re a pretension-free place for designers of all disciplines to talk shop, chew the fat, hone their craft, and lend a helping hand.
